@@ -36,7 +36,7 @@ def main():
     dashboard.render_header()
     dashboard.render_kpis(kpis)
     dashboard.render_main_chart(df_simulated, config)
-    dashboard.render_geo_xai(df_simulated, kpis['promedio'])
+    dashboard.render_geo_xai(df_simulated, kpis)
 
     # E. Renderizar Reportes
     reporter = ReportGenerator()
