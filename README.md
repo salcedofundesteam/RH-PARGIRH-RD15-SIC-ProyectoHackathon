@@ -1,6 +1,8 @@
-# RH-PARGIRH-RD15-SIC-ProyectoHackathon
+# 💧 RH-PARGIRH: Sistema de Inteligencia Hídrica y Gobernabilidad
 
-# Sistema de Inteligencia Hídrica y Gobernabilidad
+<p align="center">
+  <img src="assets/logo.png" width="200" alt="Logo RH-PARGIRH">
+</p>
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B)
@@ -10,7 +12,7 @@
 > **Proyecto Agricultura Resiliente y Gestión Integrada de Recursos Hídricos**
 > *Transformando datos climáticos en decisiones justas y transparentes.*
 
----
+🔗 VER DEMO EN VIVO AHORA
 
 ## 📖 Descripción General
 
@@ -83,10 +85,38 @@ RH-PARGIRH-CORE/
 │   ├── data_loader.py      # Ingesta de datos
 │   ├── engine.py           # Motor de cálculo hidrológico
 │   ├── dashboard.py        # Visualización (Plotly/Mapas)
-│   ├── economics.py        # Módulo Económico 
-│   ├── governance.py       # Módulo de Gobernabilidad
+│   ├── economics.py        # Módulo Económico (NUEVO)
+│   ├── governance.py       # Módulo de Gobernabilidad (NUEVO)
 │   └── sidebar.py          # Configuración de usuario
 └── assets/                 # Imágenes y logos
+
+## 📸 Capturas de Pantalla
+
+### 💧 1. Inteligencia Hídrica y Monitor de Riesgos
+*Visualización en tiempo real de caudales, predicciones de IA y alertas territoriales.*
+
+<p align="center">
+  <img src="assets/dashboard-inteligencia%20hidrica.png" width="45%">
+  <img src="assets/monitor-de-riesgos.png" width="45%">
+</p>
+
+### 💰 2. Impacto Económico (Modelo FAO 33)
+*Estimación de pérdidas monetarias y calibración de costos agrícolas.*
+
+![Impacto Económico](assets/Impacto%20economico.png)
+
+### ⚖️ 3. Gobernabilidad y Reportes
+*Toma de decisiones automatizada basada en el MOPE y generación de documentos oficiales.*
+
+<p align="center">
+  <img src="assets/gobernabilidad.png" width="45%">
+  <img src="assets/memorandums.png" width="45%">
+</p>
+
+### 🤖 Asistente Legal
+*Chatbot integrado para consultas regulatorias.*
+
+![Chatbot](assets/chatbot.png)
 
 🤝 Créditos
 Desarrollado por el equipo RD15 - SIC para el Samsung Innovation Campus Hackathon 2025.
