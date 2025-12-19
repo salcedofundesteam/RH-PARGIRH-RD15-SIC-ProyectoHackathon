@@ -80,15 +80,20 @@ Sigue estos pasos para ejecutar el sistema en tu entorno local:
 ## 📂 Estructura del Proyecto
 
 ```text
+## 📂 Estructura del Proyecto
+
+```text
 RH-PARGIRH-CORE/
 ├── app.py                  # Orquestador Principal (Main)
 ├── data/                   # Fuente de datos (CSVs)
+├── notebook/               # 🧠 Laboratorio de IA y Ciencia de Datos
+│   └── 1_data_pipeline_and_modeling.ipynb  # Pipeline Híbrido: Entrenamiento IA (Random Forest) + Estadística Clásica de Cuenca (70 años de historia hidrológica)
 ├── modules/                # Arquitectura Modular
 │   ├── data_loader.py      # Ingesta de datos
 │   ├── engine.py           # Motor de cálculo hidrológico
 │   ├── dashboard.py        # Visualización (Plotly/Mapas)
-│   ├── economics.py        # Módulo Económico (NUEVO)
-│   ├── governance.py       # Módulo de Gobernabilidad (NUEVO)
+│   ├── economics.py        # Módulo Económico (Cálculo de pérdidas FAO-33)
+│   ├── governance.py       # Módulo de Gobernabilidad (Reglas del MOPE)
 │   └── sidebar.py          # Configuración de usuario
 └── assets/                 # Imágenes y logos
 ```
@@ -134,6 +139,7 @@ Desarrolladores: Jeremy Bourdier Estrella, Wandrys Ferrand Guzman
 Scrum Master, Sopoerte auxiliar: Johán Manuel Vicente Berroa
 
 Documentador Técnico, investigador: Randolf Valdimir Martinez Beltre
+
 
 
 
