@@ -90,7 +90,9 @@ RH-PARGIRH-CORE/
 │   ├── economics.py        # Módulo Económico (NUEVO)
 │   ├── governance.py       # Módulo de Gobernabilidad (NUEVO)
 │   └── sidebar.py          # Configuración de usuario
-└── assets/                 # Imágenes y logos```
+└── assets/                 # Imágenes y logos
+
+---
 
 ## 📸 Capturas de Pantalla
 
@@ -133,3 +135,4 @@ Scrum Master, Sopoerte auxiliar: Johán Manuel Vicente Berroa
 
 
 Documentador Técnico, investigador: Randolf Valdimir Martinez Beltre
+
