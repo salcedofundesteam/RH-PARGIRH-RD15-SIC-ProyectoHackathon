@@ -61,6 +61,21 @@ El sistema opera bajo una arquitectura modular de tres pestañas integradas:
 * **Matriz de Empatía:** Visualización del impacto social para facilitar la negociación entre sectores.
 
 ---
+## ⚙️ Arquitectura del Flujo de Datos
+```mermaid
+graph TD
+    A[Data Loader] -->|Carga de CSVs| B(Hydrology Engine)
+    B -->|Simulación Climática| C{Random Forest Model}
+    C -->|Predicción de Caudales| D[Dashboard UI]
+    D -->|Visualización| E[Monitor de Riesgos]
+    D -->|Cálculo FAO-33| F[Módulo Económico]
+    D -->|Reglas MOPE| G[Gobernabilidad & Alertas]
+    G -->|Auditoría| H[(Audit Log Inmutable)]
+    
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+    style H fill:#bbf,stroke:#333,stroke-width:2px
+```
+---
 
 ## 🛠️ Instalación y Uso
 
@@ -139,13 +154,14 @@ Desarrollado por el equipo RD15 - SIC para el Samsung Innovation Campus Hackatho
 
 Líder de Proyecto: Jeremy Bourdier Estrella
 
-Científicos de Datos: Wandrys Ferrand Guzman
+Científicos de Datos: Wandrys Ferrand Guzman, Jeremy Bourdier Estrella
 
 Desarrolladores: Jeremy Bourdier Estrella, Wandrys Ferrand Guzman
 
 Scrum Master, Sopoerte auxiliar: Johán Manuel Vicente Berroa
 
 Documentador Técnico, investigador: Randolf Valdimir Martinez Beltre
+
 
 
 
