@@ -122,7 +122,7 @@ RH-PARGIRH-CORE/
 
 ![Chatbot](assets/chatbot.png)
 
-🤝 Créditos
+## 🤝 Créditos
 Desarrollado por el equipo RD15 - SIC para el Samsung Innovation Campus Hackathon 2025.
 
 Líder de Proyecto: Jeremy Bourdier Estrella
@@ -133,7 +133,7 @@ Desarrolladores: Jeremy Bourdier Estrella, Wandrys Ferrand Guzman
 
 Scrum Master, Sopoerte auxiliar: Johán Manuel Vicente Berroa
 
-
 Documentador Técnico, investigador: Randolf Valdimir Martinez Beltre
+
 
 
