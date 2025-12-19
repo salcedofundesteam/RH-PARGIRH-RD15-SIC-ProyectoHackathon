@@ -11,6 +11,8 @@
 
 > **Proyecto Agricultura Resiliente y Gestión Integrada de Recursos Hídricos**
 > *Transformando datos climáticos en decisiones justas y transparentes.*
+ 
+![Demo del Sistema](https://github.com/user-attachments/assets/eb729216-6077-4b22-8bc7-8b37e3a35260)
 
 🔗 VER DEMO EN VIVO AHORA
 
@@ -88,7 +90,7 @@ RH-PARGIRH-CORE/
 │   ├── economics.py        # Módulo Económico (NUEVO)
 │   ├── governance.py       # Módulo de Gobernabilidad (NUEVO)
 │   └── sidebar.py          # Configuración de usuario
-└── assets/                 # Imágenes y logos
+└── assets/                 # Imágenes y logos```
 
 ## 📸 Capturas de Pantalla
 
@@ -128,5 +130,6 @@ Científicos de Datos: Wandrys Ferrand Guzman
 Desarrolladores: Jeremy Bourdier Estrella, Wandrys Ferrand Guzman
 
 Scrum Master, Sopoerte auxiliar: Johán Manuel Vicente Berroa
+
 
 Documentador Técnico, investigador: Randolf Valdimir Martinez Beltre
